@@ -29,13 +29,13 @@ body{
 a{
     color: var(--primary);
     text-decoration: none;
-    cursor: none;
+    /* cursor: none; */
 
 }
 
 a:hover{
     color: var(--second);
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 h1,
