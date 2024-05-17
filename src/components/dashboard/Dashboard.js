@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Dashboard.css"
-// import Card from '../card/Card';
 import Reports from '../reports/Reports';
 import RecentSales from '../reports/RecentSales';
 import TopSealing from '../topsealing/TopSealing';
@@ -10,30 +9,6 @@ import WebTrafic from '../webtrafic/WebTrafic';
 import News from '../news/News';
 import Cards from '../card/Cards';
 function Dashboard() {
-
-    // const [cards, setCards]= useState([])
-
-    // const fetchData= ()=>{
-    //     fetchData('http://localhost:4000/cards')
-    //     .then(res=> res.json())
-    //     .then(data =>{
-    //         setCards(data);
-    //     })
-    //     .catch(e=> console.log(e.message));
-    // };
-    // useEffect(()=> {
-    //     fetchData();
-    // }, [])
-
-    // useEffect(()=>{
-    //     fetch("http://localhost:4000/cards")
-    //     .then(res=>{
-    //         return res.json();
-    //     })
-    //     .then(data=>{
-    //         setCards(data);
-    //     })
-    // })
   return (
     <section className='dashboard section'>
         <div className='row'>

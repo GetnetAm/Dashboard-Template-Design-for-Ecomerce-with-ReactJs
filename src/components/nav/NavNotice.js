@@ -4,7 +4,7 @@ import "./Nav.css";
 function NavNotice() {
   return (
     <li className="nav-item dropdown">
-      <a className="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+      <a className="nav-link nav-icon" href="/" data-bs-toggle="dropdown">
         <i className="fa-solid fa-bell"></i>
         <span className="badge bg-primary badge-number">4</span>
       </a>
