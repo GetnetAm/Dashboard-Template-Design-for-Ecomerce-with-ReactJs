@@ -1,3 +1,4 @@
+
 {
   "cards": [
     {
@@ -8,6 +9,7 @@
       "percentage": 0.12,
       "active": true
     },
+    
     {
       "_id": 2,
       "name": "Revenue",
@@ -177,6 +179,7 @@
       "content": "Est sit eum reiciendis exercitationem",
       "highlight": ""
     },
+
     {
       "_id": 6,
       "time": "4 weeks",
