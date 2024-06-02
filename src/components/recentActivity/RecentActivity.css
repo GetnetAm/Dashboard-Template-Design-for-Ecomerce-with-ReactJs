@@ -5,7 +5,7 @@
     font-size: 14px;
 }
 
-.dashboard .activity .activity-item .activity-label{
+.dashboard .activity .activity-item .activite-label{
     color: #888;
     position: relative;
     flex-shrink: 0;
@@ -13,7 +13,7 @@
     min-width: 64px;
 }
 
-.dashboard .activity .activity-item .activity-label::before{
+.dashboard .activity .activity-item .activite-label::before{
     content: '';
     position: absolute;
     right: -11px;

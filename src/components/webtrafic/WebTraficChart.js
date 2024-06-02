@@ -20,6 +20,7 @@ function WebTraficChart() {
                         show: false,
                         postion: 'center',
                     },
+                   
                     emphasis: {
                         label:{
                             show: true,
@@ -28,6 +29,7 @@ function WebTraficChart() {
 
                         },
                     },
+                    
                     labelline:{
                         show: false,
                     },

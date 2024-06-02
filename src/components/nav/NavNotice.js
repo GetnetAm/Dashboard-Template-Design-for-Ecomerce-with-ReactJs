@@ -11,7 +11,7 @@ function NavNotice() {
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
         <li className="dropdown-header">
           You have 4 new notifications
-          <a href="#">
+          <a href="/">
             <span className="badge rounded-pill bg-primary p-2 ms-2">
               view all
             </span>
@@ -76,7 +76,7 @@ function NavNotice() {
           </li>
 
           <li className="dropdown-footer">
-            <a href="#">show all notifications</a>
+            <a href="/" style={{color:"dodgerblue",fontStyle:"italic", background:"white"}}>show all notifications</a>
           </li>
         </li>
       </ul>

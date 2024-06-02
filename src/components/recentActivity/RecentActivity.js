@@ -25,7 +25,7 @@ function RecentActivity() {
         
         <div className='card-body'>
             <h5 className='card-title'>
-                Recent Activity <span> |</span>
+                Recent Activity <span> |{filter}</span>
             </h5>
 
             <div className='activity'>

@@ -1,9 +1,10 @@
 import React from "react";
+import "./Nav.css"
 
 function NavMessage() {
   return (
     <li className="nav-item dropdown">
-      <a className="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+      <a className="nav-link nav-icon" href="/" data-bs-toggle="dropdown">
       <i class="fa-solid fa-message"></i>
         <span className="badge bg-primary badge-number">3</span>
       </a>
@@ -11,7 +12,7 @@ function NavMessage() {
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
         <li className="dropdown-header">
           You have 3 new Messages
-          <a href="#">
+          <a href="/">
             <span className="badge rounded-pill bg-primary p-2 ms-2">
               view All
             </span>
@@ -23,12 +24,12 @@ function NavMessage() {
         </li>
 
         <li className="message-item">
-          <a href="#">
-            <img src="assets/img/" alt="profille" className="rounded-circle" />
+          <a href="/">
+            <img src="" alt="profille" className="rounded-circle" />
          
 
           <div>
-            <h4>Getnet Amsalu</h4>
+            <h4>Iyasu J</h4>
             <p>Software Developers internationals</p>
             <p>4 hrs. ago</p>
           </div>
@@ -39,10 +40,10 @@ function NavMessage() {
         </li>
 
         <li className="message-item">
-          <a href="#">
-            <img src="assets/img/message" className="rounded-circle" />
+          <a href="/">
+            <img src="" className="rounded-circle" alt="" />
             <div>
-              <h4>Get Amsalu</h4>
+              <h4>Antonio</h4>
               <p>software devloper solutions find software solution</p>
               <p>6 Hrs.ago</p>
             </div>
@@ -55,8 +56,8 @@ function NavMessage() {
 
         </li>
         <li className="message-item">
-          <a href="#">
-            <img src="assets/img/message" className="rounded-circle" />
+          <a href="/">
+            <img src="" className="rounded-circle" alt="" />
             <div>
               <h4>Get Amsalu</h4>
               <p>software devloper solutions find software solution</p>
@@ -71,7 +72,7 @@ function NavMessage() {
           </li>
 
           <li className="dropdown-footer">
-            <a href="#">show all messages</a>
+            <a href="/" style={{color:"dodgerblue",fontStyle:"italic", background:"white"}}>show all notifications</a>
           </li>
       </ul>
     </li>

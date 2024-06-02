@@ -1,5 +1,6 @@
 import React from 'react'
 import profleImg from "../../images/user2.jpg"
+import "./Nav.css"
 
 function NavAvater() {
   return (
@@ -65,8 +66,8 @@ function NavAvater() {
         </li>
 
         <li className="dropdown-footer">
-          <a href="/">show all messages</a>
-        </li>
+            <a href="/" style={{color:"dodgerblue",fontStyle:"italic", background:"white"}}>show all notifications</a>
+          </li>
     </ul>
   </li>
   )

@@ -9,7 +9,7 @@ function Logo() {
   return (
     <div className='d-flex align-items-center justify-content-between'>
         <a href='/' className='logo d-flex align-items-center'>
-            <span className='logo d-none d-lg-block'>AdminDashboard</span>
+            <span className='logo d-none d-lg-block'>AdminDashboard-1</span>
         </a>
 
         <i class="fa-solid fa-bars"

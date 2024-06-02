@@ -30,6 +30,8 @@ function ReportCharts() {
                 size: 4,
             },
             colors: ['#4154f1', "#2eca6a", "#ff771d"],
+            // colors: ['green', "yellow", "red"],
+
             fill:{
                 type: "gradient",
                 gradient:{

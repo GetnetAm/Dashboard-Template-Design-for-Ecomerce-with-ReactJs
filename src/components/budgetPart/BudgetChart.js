@@ -45,7 +45,7 @@ function BudgetChart() {
                     type: 'radar',
                     data:[
                         {
-                            value: [4200, 3000, 20000, 35000,18000],
+                            value: [4200, 3000, 20000, 35000, 50000, 18000],
                             name: "Allocated Budget",
 
                         },

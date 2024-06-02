@@ -129,3 +129,10 @@
 .header-nav .profile .dropdown-item:hover{
     background: #f6f9ff;
 }
+
+.dropdown-footer a{
+    background: #f6f9ff;
+    color: dodgerblue;
+    font-size: 12px;
+
+}

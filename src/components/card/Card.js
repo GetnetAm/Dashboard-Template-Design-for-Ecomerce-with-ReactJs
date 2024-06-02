@@ -8,7 +8,7 @@ function Card({card}) {
     }
   return (
     <div className='col-xxl-4 col-md-6'>
-        <div className='card info-card sales-card'>
+        <div className='card .info-card sales-card'>
             <CardFiliter filterChange={handleFilterChange} />
             <div className='card-body'>
                 <h5 className='card-title'>{card.name} <span>| {filter}</span></h5>
@@ -21,8 +21,8 @@ function Card({card}) {
                     <div className='ps-3'>
 
                     <h6>
-                            {card.name="Revinue"
-                            ? '$' +card.amount.toLocaleString()
+                            {card.name==="Revinue"
+                            ? '$' + card.amount.toLocaleString()
                         :card.amount.toLocaleString()}
 
                         </h6>
