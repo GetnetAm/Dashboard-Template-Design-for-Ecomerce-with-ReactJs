@@ -7,6 +7,7 @@ function Card({card}) {
         setFilter(filter)
     }
   return (
+    // card style with bootstrap
     <div className='col-xxl-4 col-md-6'>
         <div className='card .info-card sales-card'>
             <CardFiliter filterChange={handleFilterChange} />
