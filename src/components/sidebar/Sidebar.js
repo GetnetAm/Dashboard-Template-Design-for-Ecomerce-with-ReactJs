@@ -5,6 +5,7 @@ import NavItem from "../nav/NavItem";
 
 function Sidebar() {
   return (
+    // sidebar style
     <aside id="sidebar" className="sidebar">
       <ul className="sidebar-nav" id="sidebar-nav">
         <li className="nav-item">
